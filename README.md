@@ -99,19 +99,6 @@ Then:
   python simulator.py --player_1 student_agent --player_2 second_agent --display
   ```
     
-## Auto-Grading Requirements Checklist
-
-* `student_agent.py` is the only modified file
-* No extra imports or external libraries
-* Decorator remains exactly `@register_agent("student_agent")`
-* Runs under 2 seconds per move (configured: `time_limit = 1.90s`)
-* Works on all board sizes (6–12)
-
-To test before submission:
-
-```bash
-python simulator.py --player_1 random_agent --player_2 student_agent --autoplay
-```
 ## Technical Notes (specific to student_agent.py v8.2)
 
 * **Algorithm:** Iterative deepening minimax with alpha–beta pruning.
